@@ -20,6 +20,7 @@ public  class  RpcHelperTest  {
 		category.add("category  one");
 
 		Item one = new ItemBuilder().setItemId("one").setRating(5).setCategories(category).build();
+		
 		Item two = new ItemBuilder().setItemId("two").setRating(5).setCategories(category).build();
 		List<Item>  listItem  =  new  ArrayList<Item>(); 
 		listItem.add(one);
