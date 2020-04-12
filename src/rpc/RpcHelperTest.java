@@ -26,7 +26,7 @@ public  class  RpcHelperTest  {
 		listItem.add(one);
 		listItem.add(two);
 
-		JSONArray  jsonArray  =  new  JSONArray(); 
+		JSONArray  jsonArray  =  new JSONArray(); 
 		
 		jsonArray.put(one.toJSONObject()); 
 		
